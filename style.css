@@ -1,15 +1,9 @@
 
 body{
+  width: 1920px;
+  height: 1080px;
   margin: auto;
   background-color: #FAF7F2;
-  color: #FFFFFF;
-}
-
-#wrap{
-  display: flex;
-  flex-direction: column;
-  max-width: 1920px;
-  margin: 2rem auto;
 }
 
 header{
@@ -551,16 +545,4 @@ header{
     font-weight: 400;
     font-size: 16px;
     line-height: 28.8px;
-  }
-
-  @media (max-width:650px){
-    #wrap{
-      padding: 0 1rem;
-    }
-
-    body{
-      min-width: 540px;
-      min-height: 5928px;
-    }
-
   }
