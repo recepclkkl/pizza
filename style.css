@@ -13,7 +13,6 @@ header{
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  
 }
 
 .logo p{
@@ -26,14 +25,6 @@ header{
   line-height: 50px;
   justify-content: center;
   color: #FFFFFF;
-}
-
-
-
-header section{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .catchwordsMain{
@@ -107,8 +98,8 @@ header section{
   display: flex;
   width: 1072px;
   height: 449px;
-  margin:auto;
   gap: 11px;
+  margin: auto;
 }
 
 .mid-section-1{
@@ -176,25 +167,24 @@ header section{
   display: flex;
   flex-direction: column;
   width: 530px;
-  height: 449px;
+  gap: 9px;
 }
 
 .mid-section-2-1{
-  width: 530px;
+  display: flex;
   height: 220px;
   background-color: #292929;
   background-repeat: no-repeat;
-  border-radius: 50px;
-  justify-content: space-between;
-  padding: 32px;
+  border-radius: 12px;
 }
 
-.mid-section-2-2{
-  width: 530px;
-  height: 220px;
-  background-image: url(../pizza/public/assets/iteration-2/cta/kart-3.png);
-  background-repeat: no-repeat;
+.mid-section-hackathlon{
+  width: 182.35px;
+  height: 163px;
   border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }
 
 #hackathlon{
@@ -204,14 +194,73 @@ header section{
   font-weight: 600;
   font-size: 32px;
   line-height: 44.27px;
-  text-align: center;
 }
 
-.mid-section-2-1 div img{
-  width: 210.15196228027344;
-  height: 151.00001525878906;
+.mid-section-2-1 section img{
+  display: flex;
+  position: relative;
+  height: 151px;
+  margin-left: auto;
+  }
+
+.mid-section-2-1 section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  padding: 32px;
+  justify-content: space-between;
 }
 
-.mid-section-2-1 div p{
+.mid-section-2-2{
+  width: 530px;
+  height: 220px;
+  background-color: #FFEECC;
+  background-image: url(./public/assets/iteration-2/pictures/background-1.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  border-radius: 12px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#npm{
+  color:#292929;
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44.27px;
+  width: 254px;
+  height: 88px;
+}
+
+#npm span{
+  color: #CE2829;
+}
+
+.mid-section-2-2 section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  padding: 32px;
+  justify-content: space-between;
+}
+
+.mid-section-npm{
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+  height: 161px;
+  position: absolute;
+}
+
+.mid-section-2-2 section img{
+  display: flex;
+  height: 194px;
+  }
   
-}
+  
+  
