@@ -312,47 +312,237 @@ header{
     display: flex;
     margin: auto;
     justify-content: center;
-    width: 1068;
-    height: 430;
+    width: 1068px;
+    height: 430px;
     top: 1981px;
     left: 425px;
     gap: 32px
     ;
   }
 
+  #menu{
+    width: 334.6666564941406px;
+    height: 419px;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 32px;
+    background-color: #FFFFFF;
+  }
+
+  #menu section{
+    display: flex;
+    flex-direction: column;
+    width: 270.6666564941406px;
+    gap: 24px;
+  }
+
+  .menu-img{
+    width: 270.6666564941406px;
+    height: 265px;
+  }
+  
+  .menu-content{
+    display: flex;
+    flex-direction: column;
+    width: 270.6666564941406px;
+    height: 66px;
+    gap: 8px;
+
+  }
+
+  .menu-content h2{
+    width: 270.6666564941406px;
+    height: 29px;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29.44px;
+  }
+
+  .content{
+    display: flex;
+    height: 29px;
+    justify-content: space-between;
+
+  }
+  .com-rate{
+    width: 38px;
+    height: 29px;
+    width: 23px;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28.8px;
+    color:#1B1B1BB2 ;
+  }
+
+  .price{
+    width: 55.01250076293945px;
+    height: 25px;
+    margin-left: 20px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.76px;
+    color: #292929;text-align: end;
+  }
+
   .com-price{
+    width: 126px;
     display: flex;
+    justify-content: space-between;
   }
 
-  .com-price section{
+  footer{
     display: flex;
-    
+    flex-direction: column;
+    width: 1920px;
+    height: 561.25px;
+    background-color: #1a1a1a;
+    margin-top: 150px;
+  }
+  
+  .footer-class{
+    display: flex;
+    width: 1066px;
+    height: 390.3671875px;
+    margin-top: 58px;
+    margin-left: 427px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .contacts{
+    display: flex;
+    width: 663px;
+    height: 390.3671875px;
+    color: #FFFFFF;
   }
 
-  #menu-1{
-    width: 334.6666564941406;
-    height: 419;
+  .info{
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    border-radius: 12px;
-    padding: 32px;
-    background-color: #FFFFFF;
+    align-items: center;
+    width: 306px;
+    height: 314.0625px;
+  }
+  
+  .info div{
+    width: 251px;
+    font-family: 'Londrina Solid';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    align-items: start;
+  }
+
+  .info-text{
+    width: 306px;
+    height: 173.5625px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-text p{
+    width: 240px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+    color: #FFFFFF;
+  }
+
+  .info-text li{
+    display: flex;
+    align-items: ;
+    height: 32.390625px;
+    width: 100%;
+    gap:10px;
+  }
+
+  .hot-menu{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 321.453125px;
+    margin-top: 30px;
+    margin-left: 100px;
+    gap: 30px;
 
   }
- 
-  #menu-2{
-    width: 334.6666564941406;
-    height: 419;
-    justify-content: space-between;
-    border-radius: 12px;
-    padding: 32px;
-    background-color: #FFFFFF;
+
+  .hot-menu h1{
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.11px;
+    letter-spacing: 0%;
+    vertical-align: middle;
   }
 
-  #menu-3{
-    width: 334.6666564941406;
-    height: 419;
+  .hot-menu ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+    vertical-align: middle;
+    gap: 7px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    width: 347px;
+    height: 332px;
+    gap: 40px;
+  }
+  .social h1{
+    width: 174.3718719482422px;
+    height: 32px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.11px;
+    color: #FFFFFF;
+  }
+
+  .food-pictures{
+    width: 347px;
+    height: 222px;
+    display: flex;
     justify-content: space-between;
-    border-radius: 12px;
-    padding: 32px;
-    background-color: #FFFFFF;
+    flex-wrap: wrap;    
+    list-style-type: none;
+  }
+
+  .footer-last{
+    display: flex;
+    width: 1920px;
+    height: 89.796875px;
+    border-top: 1px solid rgb(54, 54, 54)
+
+  }
+
+  .footer-last-1{
+    display: flex;
+    color: #FFFFFF;
+    width: 1064.584228515625px;
+    height: 27px;
+    margin-top: 32.55px;
+    margin-left: 425.42px;
+    justify-content:space-between;
+
+  }
+
+  .footer-last-1 p{
+    height: 27px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.8px;
   }
